@@ -1,0 +1,13 @@
+{
+    "name": "pangolinkeys/php-commander",
+    "description": "A base implementation of the command pattern",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Cook",
+            "email": "me@jamesaidancook.com"
+        }
+    ],
+    "require": {}
+}
