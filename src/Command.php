@@ -6,6 +6,11 @@ class Command
 {
     protected $commands = [];
 
+    public function __call($name, $arguments)
+    {
+        $this->call($name);
+    }
+
     /**
      * Method to call a command by key.
      *
@@ -33,4 +38,6 @@ class Command
             $name => $closure,
         ];
     }
+
+
 }
