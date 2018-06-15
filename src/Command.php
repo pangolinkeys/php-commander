@@ -29,8 +29,6 @@ class Command
      */
     protected function register($name, callable $closure)
     {
-        $this->commands[] = [
-            $name => $closure,
-        ];
+        $this->commands[ $name ] = $closure;
     }
 }
